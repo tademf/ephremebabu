@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(74, 71, 78);
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}.contact{
+  margin-left: 125px;
+  margin-right: 4s00px;
+  color: white;
+}
+.contact2{
+margin-left: 40px;
+}.input{
+color: white;
+}.contact-input{
+width: 20%;
+color: white;
+padding: 12px 20px;
+margin: 8px 0;
+margin-right: 100px;
+display: inline-block;
+border: 1px solid ;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: rgb(29, 21, 21);
+}.submit{
+  width: 10%;
+  background-color: rgb(216, 150, 9);
+   margin: 10px;
+   padding: 14px 12px;
+}
+.submit:hover{
+background-color: rgb(53, 233, 224);
+}.contact-output{
+  width: 20%;
+  color: white;
+  padding: 50px 50px;
+ background-color: rgb(39, 33, 33);
+}.m{
+margin-top: 50px;
+color: gold;
+padding: 40px;
+font-family: sans-serif;
+}.k{
+  text-align: end;
+margin: 60px;
+width: 60%;
+margin-top: 100px;
+}
+.hm{
+  padding: 30px;
+}.hm a{
+  display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(21, 222, 236);
+border-radius: 60%;
+font-size: 20px;
+color: rgb(27, 12, 228);
+background: rgb(235, 245, 250);
+}
+  .hm a:hover{
+  background: #0ef;
+  color: blue;
+  box-shadow: 0 0 20px aqua;
+
+}
+.bt{
+  display: inline-block;
+margin-right: 37px;
+  margin-bottom: 9px;
+   color: rgb(8, 0, 0);
+   border-radius: 4px;
+   font-size: 20px;
+   letter-spacing: 1px;
+   background: rgb(255, 157, 0);
+  width: 200px;
+text-decoration-line: none;
+ text-align: center;
+}.bt:hover{
+  box-shadow: 0 0 20px aqua;
+}
+.n ul{
+  display: flex;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+
+ }
+ ul li a{
+  color: #00000b;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -3%;
+  padding: 20px;
+ }
+ ul li a:hover{
+  color: rgb(18, 228, 165);
+}
+
+</style>
+
+
+</head>
+<body>
+<!--
+  <div class="n">
+   
+     <ul>
+         <li><a href="#">HOME</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="my certificate.html">MY CERTIFICATE</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+     </ul>
+     </div>
+
+-->
+
+<div class="contact">
+  <h1 class="m">YOU CAN  CONTACT ME HERE</h1>
+<form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+  <div class="contact2">
+  <input type="hidden" name="access_key" value="d881e5b0-608a-4449-a0df-e40aa11f3530">
+  <div class="input">
+   <label for="name">Name</label> <br>
+ <input type="text" name="name" placeholder="your name" class="contact-input" required>
+ </div>
+ <div>
+  <label for="email">Email</label> <br>
+  <input type="email" name="email" placeholder="your email" class="contact-input" required>
+ </div>
+ <div>
+  <label for="message">Message</label> <br>
+ <textarea name="message" id="" placeholder="type your massage here" class="contact-output" required></textarea>
+ </div>
+ <div>
+  <button type="submit" class="submit">submit</button>
+ </div>
+  </div>
+</form>
+<footer class="k">
+  <div class="hm" style="align-items: center;margin-top: -50px;margin-left: 50px;">
+    <a href="https://" class="fa fa-facebook"></a>
+    <a href="" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="https://" class="fa fa-telegram"></a>
+  </div>
+  <a href="#" class="bt">More About Me</a>
+</footer>
+</div>
+</body>
+  </html>

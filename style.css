@@ -1,0 +1,160 @@
+*{
+   padding: 0px;
+   margin: 0px; 
+justify-content: space-around;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('h.avif');
+    background-color: #ebebfe;
+   background-size: cover;
+   background-position: center;
+  font-family: sans-serif;
+}
+.n{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}.n .logo{
+  width: 90px;
+  cursor: pointer;
+  margin-top: -3px;
+  margin-left: -2px;
+}
+.ul{
+ margin-top: -4px;
+}
+ul li{
+  border-collapse: collapse;
+  border-style: none;
+  list-style: none;
+  display: inline;
+  padding: 10px 16px;
+}
+ul li a{
+  color: #00000b;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -3%;
+}
+ul li a:hover{
+  color: rgb(18, 228, 165);
+}
+.my{
+  margin: 7px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.my h1{
+  font-size: 20px;
+  margin-right: 110;
+  color: white;
+  margin-left: -1%;
+  padding-top: 20px;
+}
+.my h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: white;
+  padding-top: 180px;
+  margin-top: 10px;
+}
+.my span{
+  color: rgb(236, 175, 6);
+} 
+.image{
+  border-width: 43;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 50px;
+  border: none; 
+}
+.hm{
+  position: fixed;
+}
+.hm a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(21, 222, 236);
+border-radius: 60%;
+font-size: 20px;
+color: rgb(27, 12, 228);
+background: rgb(211, 123, 123);
+}
+.hm a:hover{
+  background: #0ef;
+  color: blue;
+  box-shadow: 0 0 20px aqua;
+}
+.bt{
+  display: inline-block;
+  margin-left: 70px;
+  margin-bottom: 9px;
+   color: rgb(8, 0, 0);
+   border-radius: 4px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   background: rgb(255, 157, 0);
+   position: fixed;
+}
+.bt:hover{
+  box-shadow:0 0 5px rgb(0, 255, 68);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+  background-size: cover;
+}
+h1{
+  align-items: center;
+  margin-left: 40%;
+}
+.contact-form{
+  width: 85;
+  max-width: 600px;
+}
+.text1{
+border: 1px solid gray;
+margin: 8px 0;
+padding: 12px 18px;
+border-radius: 8px;
+}
+.text1 label{
+  display: block;
+  text-align: left;
+  color: #333;
+ text-transform: uppercase;
+ font-size: 14px;
+}
+.text1 input,.text1 textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.nn{
+display: inline-block;
+background: rgb(27, 153, 100);
+padding: 14p 0;
+color: rgb(6, 8, 8);
+text-transform: uppercase;
+cursor: pointer;
+width: 100%;
+}
+
+
+
